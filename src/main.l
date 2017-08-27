@@ -4,8 +4,8 @@
 %}
 
 LTRNM [a-zA-Z0-9]
-SYMB [a-zA-Z0-9\.-_]
-EMAIL {LTRNM}+{SYMB}*{LTRNM}+@{LTRNM}+{SYMB}*{LTRNM}+
+SYMB [a-zA-Z0-9_\.-]
+EMAIL {LTRNM}+({SYMB}*{LTRNM})*@{LTRNM}+({SYMB}*{LTRNM})*
 
 
 %%
